@@ -1,0 +1,32 @@
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 60px;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-icons {
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  margin: 0 15px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  filter: invert(1);
+}
+
+footer p {
+  font-size: 16px;
+  margin-top: 10px;
+}
